@@ -1,8 +1,11 @@
 import React from "react"
+import Router from "./components/Router"
 
 function App() {
   return (
-    <h1>tes</h1>
+    <div>
+      <Router />
+    </div>
   )
 }
 
