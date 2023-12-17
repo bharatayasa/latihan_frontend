@@ -1,15 +1,20 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-// user page
-
 // admin page
+import UsersData from './admincomponents/UsersData.jsx';
+import NavbarAdmin from './admincomponents/NavbarAdmin.jsx';
+
+// user page
+import NavbarUsers from './usercomponents/NavbarUsers.jsx';
+import HomePage from './usercomponents/HomePage.jsx';
+import FooterComponent from './usercomponents/FooterComponent.jsx';
 
 // landing page
+import LandingPage from './landingpage/LandingPage.jsx';
 
 // api
 import { getUserLogged, putAccessToken } from "../utils/api.js";
-
 
 class Router extends React.Component {
     constructor(props){
